@@ -2,6 +2,8 @@
 
 就活生が知っておきたい経済・業界・採用・時事ニュースをRSSから毎朝収集し、Gemini APIで最大10件に選別・要約して配信する静的PWAです。APIキーはGitHub Actionsだけが使用し、ブラウザには渡りません。
 
+公開版: [https://yumsaurus-blip.github.io/shukatsu-news/](https://yumsaurus-blip.github.io/shukatsu-news/)
+
 ## 仕組み
 
 1. GitHub Actionsが毎朝6:00（日本時間）に公開RSSの直近24時間分を収集します。
